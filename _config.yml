@@ -26,8 +26,8 @@ author:
   avatar           : "rojin.jpg" # Upload your photo to /images/ and update the filename if needed
   name             : "Rojin Salmani"
   pronouns         : # example: "she/her"
-  bio              : "B.Sc. in Electrical Engineering (Sharif University of Technology). Researching wireless networks and machine learning."
-  location         : # Add your city/country if you want it shown in the sidebar
+  bio              : "B.Sc. in Electrical Engineering Sharif University of Technology"
+  location         : "Tehran, Iran"
   employer         : "Sharif University of Technology"
   uri              : # URL
   email            : "rojinsalmani5@gmail.com"

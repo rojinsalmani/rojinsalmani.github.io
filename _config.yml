@@ -23,7 +23,7 @@ repository               : "rojinsalmani/rojinsalmani.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png" # Upload your photo to /images/ and update the filename if needed
+  avatar           : "rojin.jpg" # Upload your photo to /images/ and update the filename if needed
   name             : "Rojin Salmani"
   pronouns         : # example: "she/her"
   bio              : "B.Sc. in Electrical Engineering (Sharif University of Technology). Researching wireless networks and machine learning."

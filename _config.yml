@@ -12,9 +12,9 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Rojin Salmani"
 title_separator          : "-"
 name                     : &name "Rojin Salmani"
-description              : &description "Rojin Salmani's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://rojinsalmani.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                          # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+description              : &description "Rojin Salmani's academic portfolio" # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : "https://rojinsalmani.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rojinsalmani/rojinsalmani.github.io"
 
@@ -52,8 +52,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "rojinsalmani"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
@@ -87,17 +87,17 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : false # change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : false # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -143,8 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           :  # Social media default site image description
+og_image                 : og-image.png # Social media default site image (lives in /images/)
+og_description           : # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -157,46 +157,46 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
 
 # Reading Files
 include:
-- .htaccess
-- _pages
-- files
+  - .htaccess
+  - _pages
+  - files
 exclude:
-- "*.sublime-project"
-- "*.sublime-workspace"
-- .asset-cache
-- .bundle
-- .github
-- .jekyll-assets-cache
-- .sass-cache
-- assets/js/_main.js
-- assets/js/plugins
-- assets/js/vendor
-- CHANGELOG
-- Capfile
-- config
-- Dockerfile
-- Gemfile
-- Gruntfile.js
-- gulpfile.js
-- LICENSE
-- local
-- log
-- node_modules
-- package.json*
-- Rakefile
-- README
-- tmp
-- vendor
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
 keep_files:
-- .git
-- .svn
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -241,7 +241,7 @@ collections:
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
-- scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -252,14 +252,14 @@ defaults:
       share: true
       related: true
   # _pages
-- scope:
+  - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
   # _teaching
-- scope:
+  - scope:
       path: ""
       type: teaching
     values:
@@ -268,7 +268,7 @@ defaults:
       share: true
       comments: true
   # _publications
-- scope:
+  - scope:
       path: ""
       type: publications
     values:
@@ -277,7 +277,7 @@ defaults:
       share: true
       comments: true
   # _portfolio
-- scope:
+  - scope:
       path: ""
       type: portfolio
     values:
@@ -286,7 +286,7 @@ defaults:
       share: true
       comment: true
   # _talks
-- scope:
+  - scope:
       path: ""
       type: talks
     values:
@@ -310,21 +310,21 @@ timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-- jekyll-feed
-- jekyll-gist
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-redirect-from
-- jemoji
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
-- jekyll-feed
-- jekyll-gist
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-redirect-from
-- jemoji
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
 
 
 # Archives
